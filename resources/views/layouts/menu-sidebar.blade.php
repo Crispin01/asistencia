@@ -62,7 +62,7 @@
                   <div class="collapse menu-dropdown" id="sidebarSignIn">
                     <ul class="nav nav-sm flex-column">
                       <li class="nav-item">
-                          <a href="dni" class="nav-link" data-key="t-basic"> DNI </a>
+                          <a href="{{ route('consultas.dni') }}" class="nav-link" data-key="t-basic"> DNI </a>
                       </li>
                       <li class="nav-item">
                           <a href="auth-signin-cover.html" class="nav-link" data-key="t-cover"> RUC </a>
